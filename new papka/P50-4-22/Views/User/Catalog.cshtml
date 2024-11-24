@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewData["Title"] = "Каталог";
+}
+@model IEnumerable<P50_4_22.Models.CatalogProduct>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="brand-filter">
+                <!--  Блок для фильтра по брендам -->
+                <h3 class="text">Бренды</h3>
+                    <h4 class="text">
+                        <input type="checkbox" id="whiskas" name="whiskas">
+                        <label for="whiskas">Whiskas</label>
+                    </h4>
+                    <h4 class="text">
+                        <input type="checkbox" id="royal-canin" name="royal-canin">
+                        <label for="royal-canin">Royal Canin</label>
+                    </h4>
+                    <h4 class="text">
+                        <input type="checkbox" id="purina-pro-plan" name="purina-pro-plan">
+                        <label for="purina-pro-plan">Purina Pro Plan</label>
+                    </h4>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <!--  Блок для товаров -->
+            @foreach(var i in Model)
+            {
+            
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="product-card" style="display: flex; align-items: center;">
+                        <img src="~/lib/Images/@i.Img" alt="Товар 1" style="width: 200px;">
+                        <div style="margin-left: 20px;">
+                            <h3 class="text">@i.ProductName</h3>
+                            <p class="text">@i.DescriptionProduct</p>
+                            <p class="text">@i.PriceOfProduct</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            }
+        </div>
+    </div>
+</div>

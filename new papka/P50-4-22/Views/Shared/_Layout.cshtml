@@ -24,32 +24,36 @@
                             <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Главная</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Catalog">Каталог</a>
+                            <a class="nav-link text-light" asp-area="" asp-controller="User" asp-action="Catalog">Каталог</a>
                         </li>
                         <li>
-                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Map">Карта</a>
+                            <a class="nav-link text-light" asp-area="" asp-controller="User" asp-action="Map">Карта</a>
                         </li>
                         <li>
-                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Profile">Профиль</a>
+                            <a class="nav-link text-light" asp-area="" asp-controller="Profile" asp-action="Profile">Профиль</a>
                         </li>
                         <li>
-                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Bucket">Корзина</a>
+                            <a class="nav-link text-light" asp-area="" asp-controller="User" asp-action="Bucket">Корзина</a>
+                        </li>
+                        <li>
+                            <a class="nav-link text-light" asp-area="" asp-controller="CRUD" asp-action="AddProduct">Добавление продуктов</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <div class="container">
+    
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
-    </div>
+    
 
     <footer>
-        <div class="container">
-            &copy; 2024 - Лапы и хвост 
-        </div>
+        
+            <div class="text">
+                &copy; 2024 - Лапы и хвост 
+            </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

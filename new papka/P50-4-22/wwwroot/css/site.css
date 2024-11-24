@@ -26,13 +26,11 @@ body {
 header {
     background-color: #474747;
     padding: 10px;
-    border-bottom: 4px solid #B85F00;
 }
 
 footer {
     background-color: #474747;
     padding: 20px;
-    border-top: 5px solid #B85F00;
 
     position: fixed;
     bottom: 0;
@@ -59,3 +57,17 @@ navbar {
 .text{
     color: white;
 }
+.btn {
+    background-color: #4CAF50; 
+    border: none; 
+    color: white; 
+    padding: 15px 32px;
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 5px;
+}
+

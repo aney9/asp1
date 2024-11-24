@@ -1,0 +1,23 @@
+﻿@model P50_4_22.Models.User
+
+@{
+    ViewData["Title"] = "Профиль";
+}
+
+<form method="post">
+    <label for="Email" class="text">email</label>
+    <input type="email" name="Email" required />
+    <label for="Loginpassword" class="text">password</label>
+    <input type="password" name="Loginpassword" required />
+    <button type="submit">LogIn</button>
+</form>
+
+
+@if (ViewBag.ErrorMessage == null)
+{
+    @ViewBag.ErrorMessage;
+}
+<a asp-action="Registr">Регистрация</a>
+
+
+

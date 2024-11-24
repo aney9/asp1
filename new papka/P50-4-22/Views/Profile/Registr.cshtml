@@ -1,0 +1,31 @@
+﻿<form method="post">
+
+    <label for="Loginvhod" class="text">login</label>
+    <input type="text" name="Loginvhod" required />
+
+    <label for="Loginpassword" class="text">password</label>
+    <input type="password" name="Loginpassword" required />
+
+    <label for="PhoneNumber" class="text">phone</label>
+    <input type="text" name="PhoneNumber" required />
+
+
+    <label for="Email" class="text">email</label>
+    <input type="email" name="Email" required />
+
+    <label for="ClientName" class="text">name</label>
+    <input type="text" name="ClientName" required />
+
+
+    <button type="submit">Зарегистрироваться</button>
+
+
+</form>
+
+@if (ViewBag.ErrorMessage != null)
+{
+    @ViewBag.ErrorMessage
+    ;
+}
+
+<a asp-action="Profile" asp-controller="Profile">Уже есть аккаунт? Авторизоваться.</a>

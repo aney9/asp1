@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using P50_4_22.Models;
 using System.Diagnostics;
 
@@ -6,25 +7,14 @@ namespace P50_4_22.Controllers
 {
     public class HomeController : Controller
     {
+        public PetStoreRpmContext db;
+
+        public HomeController(PetStoreRpmContext context)
+        {
+            db = context;
+        }
        
         public IActionResult Index()
-        {
-            return View();
-        }
-
-        public IActionResult Catalog()
-        {
-            return View();
-        }
-        public IActionResult Bucket()
-        {
-            return View();
-        }
-        public IActionResult Map()
-        {
-            return View();
-        }
-        public IActionResult Profile()
         {
             return View();
         }
