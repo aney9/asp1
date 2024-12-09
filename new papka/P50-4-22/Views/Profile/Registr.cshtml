@@ -24,8 +24,7 @@
 
 @if (ViewBag.ErrorMessage != null)
 {
-    @ViewBag.ErrorMessage
-    ;
+    <span style="color:white";>@ViewBag.ErrorMessage</span>
 }
 
 <a asp-action="Profile" asp-controller="Profile">Уже есть аккаунт? Авторизоваться.</a>

@@ -15,11 +15,15 @@ public partial class CatalogProduct
 
     public string Img { get; set; } = null!;
 
+    public int Quantity { get; set; }
+
     public int BrandsId { get; set; }
 
     public int CategoriesId { get; set; }
 
     public virtual Brand Brands { get; set; } = null!;
+
+    public virtual ICollection<Cart> Carts { get; set; } = new List<Cart>();
 
     public virtual Category Categories { get; set; } = null!;
 

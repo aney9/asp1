@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Jyv8vvlOMBgReKo044cbFHwqvVI5M82bgDYpJboaHsw=",
+  "Hash": "0QJ0vJmKRlhQFQl+lWGM3ZFRslSuAQ5ZKoAjN00cJGA=",
   "Source": "P50-4-22",
   "BasePath": "_content/P50-4-22",
   "Mode": "Default",
@@ -1079,6 +1079,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\Images\\котик.png"
+    },
+    {
+      "Identity": "C:\\Users\\Тимофей\\source\\repos\\P50-4-22\\new papka\\P50-4-22\\wwwroot\\lib\\Images\\педигри.png",
+      "SourceId": "P50-4-22",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Тимофей\\source\\repos\\P50-4-22\\new papka\\P50-4-22\\wwwroot\\",
+      "BasePath": "_content/P50-4-22",
+      "RelativePath": "lib/Images/педигри.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\Images\\педигри.png"
     },
     {
       "Identity": "C:\\Users\\Тимофей\\source\\repos\\P50-4-22\\new papka\\P50-4-22\\wwwroot\\lib\\jquery\\dist\\jquery.js",

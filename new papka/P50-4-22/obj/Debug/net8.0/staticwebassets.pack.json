@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\lib\\Images\\котик.png"
     },
     {
+      "Id": "C:\\Users\\Тимофей\\source\\repos\\P50-4-22\\new papka\\P50-4-22\\wwwroot\\lib\\Images\\педигри.png",
+      "PackagePath": "staticwebassets\\lib\\Images\\педигри.png"
+    },
+    {
       "Id": "C:\\Users\\Тимофей\\source\\repos\\P50-4-22\\new papka\\P50-4-22\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
